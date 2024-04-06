@@ -6,7 +6,7 @@
       const DatabaseConeect=async () =>{
           try{
                 await mongoose.connect(MONGOURI)
-                  console.log(`database is connect to ${mongoose.connection.host}`.blue.bgCyan)
+                  console.log(`database is connect to ${mongoose.connection.host}`.blue.bgCyan)  
           }catch(error){
               console.log("database error",error)
           }
