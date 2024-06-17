@@ -1,9 +1,9 @@
 
      const Usermodel=require("../models/userModel");
      const bcrypt=require("bcrypt");
-     const token=require("jsonwebtoken");
+     const token=require("jsonwebtoken");    
 
-     //userRegister Logic
+     //userRegister Logic build 
 
      const userRegister=async(req,res)=>{
             try{
