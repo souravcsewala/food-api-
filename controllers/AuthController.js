@@ -3,7 +3,7 @@
      const bcrypt=require("bcrypt");
      const token=require("jsonwebtoken");    
 
-     //userRegister Logic build 
+     //userRegister Logic build test one test
 
      const userRegister=async(req,res)=>{
             try{

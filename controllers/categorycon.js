@@ -1,7 +1,7 @@
 
      const categorymodel=require("../models/categoryModel")
 
-       // create category 
+       // create category test 
 
          const categorycreate=async(req,res)=>{
                 try{
